@@ -1,0 +1,26 @@
+.double__grid--right {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border-bottom:1px solid #efecec;
+}
+
+.double__grid--left {
+    display: flex;   
+}
+
+.double__grid--left div {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .double__grid--left {
+        display: block;   
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+}
